@@ -23,6 +23,11 @@ namespace GrupoIBM.Controllers
             return View();
         }
 
+        public IActionResult Services()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
