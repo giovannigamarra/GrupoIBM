@@ -6,12 +6,22 @@
     <title>@ViewData["Title"] - GrupoIBM</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+      <link rel="icon" type="image/png" href="~/img/Logo_SinFondo.png">
+      <link rel="icon" type="image/png" href="~/img/Logo_SinFondo2.png">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />    
+    <link rel="stylesheet" href="~/css/new.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+   <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3" style="background-color:#212529;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GrupoIBM</a>
+             <img src="~/img/Logo_SinFondo.png" alt="LOGO" width="50" class="ImgLogo">
+             <img src="~/img/Logo_SinFondo2.png" alt="LOGO" width="50" class="ImgLogo">
+               <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><h2>Max<em>Service</em></h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <img src="~/img/logos/a.png" alt="LOGO" width="190">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,9 +45,24 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted position-absolute w-100" id="footer">
         <div class="container">
-            &copy; 2021 - GrupoIBM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- &copy; 2021 - MaxService - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> -->
+        </div>
+        <div class="col d-flex justify-content-around px-6">
+           <!-- <a class="text-dark" asp-area="" asp-controller="Mantenimiento" asp-action="Index"> Mantenimiento </a>-->
+        </div>
+        <div class="footer-top">
+            <div class="container" data-aos="fade-up"></div>
+                <div class="row  justify-content-center">
+                    <div class="col-lg-6">
+                        <h3>Watson</h3>
+                        <p>Dirección:Lima </p>
+                        <a class="ImgLogoAdmin text-dark navbar-brand" asp-area="" asp-controller="Mantenimiento" asp-action="Index"><img src="~/img/Logo_SinFondo.png" title="Mantenimiento" width="190"></a>
+                        <p style="margin-top: 0%;">Todos los derechos reservados, 2021 - GrupoIBM </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -45,4 +70,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
