@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj": {}
+    "D:\\7° CICLO USMP\\TALLER DE PROYECTOS\\Proyecto\\Grupo IBM\\GrupoIBM\\GrupoIBM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj": {
+    "D:\\7° CICLO USMP\\TALLER DE PROYECTOS\\Proyecto\\Grupo IBM\\GrupoIBM\\GrupoIBM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj",
+        "projectUniqueName": "D:\\7° CICLO USMP\\TALLER DE PROYECTOS\\Proyecto\\Grupo IBM\\GrupoIBM\\GrupoIBM.csproj",
         "projectName": "GrupoIBM",
-        "projectPath": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj",
-        "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\obj\\",
+        "projectPath": "D:\\7° CICLO USMP\\TALLER DE PROYECTOS\\Proyecto\\Grupo IBM\\GrupoIBM\\GrupoIBM.csproj",
+        "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+        "outputPath": "D:\\7° CICLO USMP\\TALLER DE PROYECTOS\\Proyecto\\Grupo IBM\\GrupoIBM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
