@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj": {}
+    "C:\\Users\\Edwart\\Desktop\\GrupoIBM\\GrupoIBM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj": {
+    "C:\\Users\\Edwart\\Desktop\\GrupoIBM\\GrupoIBM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj",
+        "projectUniqueName": "C:\\Users\\Edwart\\Desktop\\GrupoIBM\\GrupoIBM.csproj",
         "projectName": "GrupoIBM",
-        "projectPath": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\GrupoIBM.csproj",
-        "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giova\\Documents\\Proyecto\\GrupoIBM\\obj\\",
+        "projectPath": "C:\\Users\\Edwart\\Desktop\\GrupoIBM\\GrupoIBM.csproj",
+        "packagesPath": "C:\\Users\\Edwart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Edwart\\Desktop\\GrupoIBM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Edwart\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
