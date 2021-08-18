@@ -2,7 +2,102 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Grupo IBM </h1>
-    <p>Nuestro Campus Virtual usa servicios de IBM cloud tanto IA, recursos de alojamiento nube cloud y IOT(Internet de las cosas) los cuales nos serviran para implementar nuestro smart cities <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<header>
+    <h1 class="titulo">Smart Campus IBM</h1>
+</header>
+<br>
+<div class="card mb-3">
+  <img class="card-img-top" src="~/img/Arquitectura - IBM.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Arquitectura del proyecto</h5>
+    <p class="texto">Nuestro proyecto se trata de crear un asistente inteligente con Watson para ayudar a resolver consultas a los estudiantes de Universidad San Martin Porres sobre los temas como son los docentes, aulas, cursos y horarios.
+            Explicaremos más a profundidad como es la arquitectura de nuestro proyecto iniciamos con el desarrollador, el cual implementara la programación del sitio web por medio de visual studio code, donde se estructurará el código para su diseño y funcionalidad, iniciado el proceso de creación del sitio, contaremos con el creador de repositorios git para el uso grupal y creación de ramas según se desarrolle el proyecto. Pará deployar el sitio web se necesita el Azure Devops, donde se trabajó conjuntamente las historias de usuario y el proceso grupal de cada rama, para que así se haga el requerimiento de los servicios web con la interfaz del sitio y con su implementación en Internet.
+            Hasta ahí la creación y estructuración del sitio web, ahora el desarrollo descriptivo del servicio Watson.
+            El usuario va a utilizar nuestro asistente Watson, por medio del servicio chatbot, lo hará de manera oral de tal manera que el chatbot lo transcribirá, para lograr la transcripción se contará con una API llamada speech to text, esta API procesará el audio a bits y lo enviará al servicio Watson Assistant donde se hará la transformación de audio a texto, contando con la ia del mismo servicio para la creación de la consulta por parte del usuario, después de la transformación lo plasmara en el servicio de chatbot para q después cumpla con la función del guardado en la base de datos, de esa manera el chatbot se alimente de las consultas de los usuarios, después de la información guardada, pasa y da registro de la respuesta a la web service donde contará con la interfaz previamente creada y con el uso de Internet podrá enviar la respuesta al chatbot con otra funcionalidad del servicio Watson, después enviándola al servicio de Watson Assistant para que la procese, obtenga el contexto y verifique si es la respuesta correcta implementada anteriormente en la base de datos, en la misma nube con el servicio de Watson Assistant, y para finalizar el envío de la respuesta al usuario que realizó la consulta.</p>
+  </div>
 </div>
+<br>
+<section class="integrantes">
+    <div class="container">       
+        <div class="integrante">
+            <img src="https://image.flaticon.com/icons/png/128/456/456212.png" alt=""/>
+            <p>Julio Angel Ucharima Ortiz <br /> julio_ucharima@usmp.pe</p>
+        </div>
+        <div class="integrante">
+            <img src="https://image.flaticon.com/icons/png/128/456/456212.png" alt=""/>
+            <p> Nombre y Apellido <br /> Correo</p>
+        </div>
+        <div class="integrante">
+            <img src="https://image.flaticon.com/icons/png/128/456/456212.png" alt=""/>
+            <p> Nombre y Apellido <br /> Correo</p>
+        </div>
+    </div>
+    <br>
+    <div class="container">       
+        <div class="integrante">
+            <img src="https://image.flaticon.com/icons/png/128/456/456212.png" alt=""/>
+            <p> Nombre y Apellido <br /> Correo</p>
+        </div>
+        <div class="integrante">
+            <img src="https://image.flaticon.com/icons/png/128/456/456212.png" alt=""/>
+            <p> Nombre y Apellido <br /> Correo</p>
+        </div>
+    </div>
+</section>  
+<br>
+<style>
+    body{
+        background-color: #ffffff;
+    }
+    .titulo{
+        text-align: center;
+        color: #000000;
+    }
+    .descripcion{
+        background-color: #ffffff;
+        border: 1px solid;
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .texto{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .integrantes{
+        background-color: #ffffff;
+        color: #000000;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .integrante{
+        width:32%;
+        display: inline-block;
+        font-size: 16px;
+        border: 1px solid #000000;
+
+    }
+    .arquitectura{
+        width: 50%;
+    }
+    .integrante img{
+        width: 40%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    @@media only screen and (max-width : 500px){
+        section{
+            padding: 25px 0 15px 0;
+        }
+        .integrante{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            margin: 0 0 10px 0;
+            font-size: 12px;
+        }
+        .integrante img{
+            width: 20%;
+        }
+    }
+</style>
